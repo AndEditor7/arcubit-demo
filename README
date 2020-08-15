@@ -1,1 +1,61 @@
-Read me test
+The Arcubit first prototype build being rewite/remasted in progress. The code are messy because it still not finish!
+
+The video of this game before the rewite: https://youtu.be/p3Hm1wfeOP4
+
+----Inputs----
+Esc - Exit the game without saving the world.
+WASD - Player movement.
+F - Toggle fly mode.
+L - Reload the chunk and lighting.
+/ - Open the command line.
+1(One) - Shot the TNT.
+F4 - Open the save world.
+Mouse left click  - Breaks block.
+Mouse right click - Places block.
+Mouse scroll wheel - select block.
+----Inputs----
+
+----ChangeLog----
+###Performance and Stability Update###: #Runnable.
+
+Performances:
+- Rework how chunks mesh/vertex stored to reduce video memory usage (v-ram). (from 32 to 24 bytes per vertex, saves 8 bytes) #Done
+- Index buffer is no longer recreated per new chunk mesh, Index buffer is now shared for all chunk meshes. (reduce video memory usage, faster mesh building, and efficient rendering) #Done
+- Move meshes from chunk to render table for efficient rendering. #Done
+- Improved chunk mesh-builder for slightly efficient. #Done
+- Added asynchronous chunk loading to reduce the workload for rendering thread (Improve FPS when loading new chunks) #Done
+- Implement chunks update queue to reduce checking for a new chunk to update. #Done
+- Get and set blocks are now faster. #Done
+- Reduce blocks updates per frame from 200 to 150. #Done
+- Optimized frustum culling for chunks. #Done
+- Optimized clouds - both rendering and noise. #Done
+- Optimized particles. Particles are now pooled to reuse 'dead' Particles. #Working on
+- Optimized world generator. #Working on
+- Added VBO option to disable/enable VBO rendering. For better performance for GPU that shares a memory from the system (like integrated GPU), than disable the VBO, else enable VBO if GPU has own memory like v-ram. #Working on
+- Rework the save system to reuse data buffer. The recreating data buffer on every saves may cause a memory leak. - Working on
+
+Additional:
+- Added option before launching the game. The new option includes fullscreen mode(on/off), VBO rendering(on/off), new world gen option (Hilly land or flat land), and more. #Working on
+- Added Hilly land world gen for in option (From 3rd Arcubit game) #Working on
+- Added some more blocks #Working on
+
+Changes:
+- Update the LibGDX from 1.9.10 to 1.9.11 #Done
+- Update the LWJGL from 2.9.3 to 3.2.3 #Done
+- Water and plants are no longer shares mesh (both has own mesh and shader) #Done
+- Tweak some textures. #Working on
+- Biomes are warped and a bit bigger. #Working on
+- Improved block ray-cast. #Working on
+- Rewrite more than haft the game codes. #Working on
+- Code clean up. #Almost Done
+
+Fixes:
+- Fixed crash on start-up from invalided shader(s) on some GPU. #Done
+- Fixed Z depth buffer precision loss. #Done
+- Fixed Incorrect ambient occlusion on 'top face block'. #Done
+- Fixed slow movement when the player looks up or down while moving. #Done
+----ChangeLog----
+
+Note: This game is the first prototype build of a voxel engine. It's very unstable.
+
+- AndEditor7
