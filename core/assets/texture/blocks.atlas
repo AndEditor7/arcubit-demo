@@ -1,0 +1,461 @@
+
+blocks.png
+size: 256,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bedrock
+  rotate: false
+  xy: 32, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+brick
+  rotate: false
+  xy: 48, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cactus_bottom
+  rotate: false
+  xy: 128, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cactus_side
+  rotate: false
+  xy: 16, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cactus_top
+  rotate: false
+  xy: 64, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+clay
+  rotate: false
+  xy: 48, 64
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+coal_ore
+  rotate: false
+  xy: 0, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cobblestone
+  rotate: false
+  xy: 32, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+copper
+  rotate: false
+  xy: 48, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+copper_ore
+  rotate: false
+  xy: 96, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cross
+  rotate: false
+  xy: 16, 64
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+dirt
+  rotate: false
+  xy: 48, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+flower
+  rotate: false
+  xy: 128, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+glass
+  rotate: false
+  xy: 112, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 80, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+gold_ore
+  rotate: false
+  xy: 0, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_side
+  rotate: false
+  xy: 32, 80
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_side_snow
+  rotate: false
+  xy: 64, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_tall
+  rotate: false
+  xy: 32, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_top
+  rotate: false
+  xy: 16, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+gravel
+  rotate: false
+  xy: 0, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+hellrock
+  rotate: false
+  xy: 48, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ice
+  rotate: false
+  xy: 16, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+lava
+  rotate: false
+  xy: 64, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+leaves
+  rotate: false
+  xy: 16, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+log_side
+  rotate: false
+  xy: 16, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+log_top
+  rotate: false
+  xy: 112, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+metal
+  rotate: false
+  xy: 96, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+missing
+  rotate: false
+  xy: 96, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+mossy_cobblestone
+  rotate: false
+  xy: 96, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+obsidian
+  rotate: false
+  xy: 16, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plank
+  rotate: false
+  xy: 64, 80
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plank_dark
+  rotate: false
+  xy: 0, 64
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+plank_light
+  rotate: false
+  xy: 48, 80
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rose
+  rotate: false
+  xy: 32, 64
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sand
+  rotate: false
+  xy: 0, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sandstone
+  rotate: false
+  xy: 112, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sapling
+  rotate: false
+  xy: 0, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+snow
+  rotate: false
+  xy: 80, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+srub
+  rotate: false
+  xy: 96, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 80, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone_brick
+  rotate: false
+  xy: 112, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone_snow
+  rotate: false
+  xy: 32, 96
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tnt
+  rotate: false
+  xy: 64, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tnt_bottom
+  rotate: false
+  xy: 32, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+tnt_top
+  rotate: false
+  xy: 32, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+water1
+  rotate: false
+  xy: 80, 80
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+water2
+  rotate: false
+  xy: 32, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+water3
+  rotate: false
+  xy: 16, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_black
+  rotate: false
+  xy: 128, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_blue
+  rotate: false
+  xy: 0, 80
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_brown
+  rotate: false
+  xy: 16, 80
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_cyan
+  rotate: false
+  xy: 80, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_gray
+  rotate: false
+  xy: 64, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_green
+  rotate: false
+  xy: 64, 64
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_lightblue
+  rotate: false
+  xy: 80, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_lightgray
+  rotate: false
+  xy: 0, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_lime
+  rotate: false
+  xy: 144, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_magenta
+  rotate: false
+  xy: 0, 112
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_orange
+  rotate: false
+  xy: 48, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_pink
+  rotate: false
+  xy: 144, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_purple
+  rotate: false
+  xy: 16, 160
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_red
+  rotate: false
+  xy: 0, 128
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_white
+  rotate: false
+  xy: 48, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wool_yellow
+  rotate: false
+  xy: 0, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
