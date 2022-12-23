@@ -1,11 +1,7 @@
-apply plugin: "java"
-
-sourceCompatibility = 1.8
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
 
-sourceSets.main.java.srcDirs = [ "src/" ]
-
-
-eclipse.project {
-    name = appName + "-core"
+dependencies {
+	api "com.badlogicgames.gdx-controllers:gdx-controllers-core:$gdxControllersVersion"
+	api "com.badlogicgames.gdx:gdx:$gdxVersion"
 }
