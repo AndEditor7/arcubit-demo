@@ -1,10 +1,11 @@
 package com.andedit.arcubit.handle;
 
+import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.utils.Array;
 
 /** The InputHolder the holds inputs. */
-public final class InputHolder implements InputProcessor 
+public final class InputHolder extends InputAdapter
 {
 	public static InputHolder holder;
 	
@@ -93,10 +94,10 @@ public final class InputHolder implements InputProcessor
 	}
 
 	@Override
-	public boolean scrolled(int amount) {
+	public boolean scrolled(float amountX, float amountY) {
 		if (processors.isEmpty()) return false;
 		for (InputProcessor processor : processors) {
-			if (processor.scrolled(amount)) return true;
+			if (processor.scrolled(amountX, amountY)) return true;
 		}
 		return false;
 	}

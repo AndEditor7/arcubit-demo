@@ -79,12 +79,12 @@ public final class Inputs extends InputAdapter
 	}
 	
 	/** Returns whether the key has just been pressed.
-	 *  If pressed, than remove the pressed key (will return false on next call with same key).
+	 *  If pressed, then remove the pressed key (will return false on next call with same key).
 	 * 
 	 * @param key The key code as found in {@link Input.Keys}.
 	 * @return true if key just pressed, else false. */
 	public static boolean isKeyJustPressed(int key) {
-		final int index = findAndGetIndex(input.keysJustPre, key);
+		final int index = input.keysJustPre.indexOf(key);
 		if (index == -1) return false;
 		input.keysJustPre.removeIndex(index);
 		return true;
@@ -96,15 +96,5 @@ public final class Inputs extends InputAdapter
 	 * @return true or false. */
 	public static boolean isKeyPressed(int key) {
 		return input.keysPressed.contains(key);
-	}
-	
-	/** @return -1 if has'nt found. */
-	private static int findAndGetIndex(IntArray array, int key) {
-		final int size = array.size;
-		final int[] ints = array.items;
-		for (int i = 0; i < size; ++i) {
-			if (ints[i] == key)	return i;
-		}
-		return -1;
 	}
 }

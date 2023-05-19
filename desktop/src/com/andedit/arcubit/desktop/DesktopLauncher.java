@@ -56,7 +56,9 @@ public class DesktopLauncher {
 		config.useVsync(true);
 		config.setIdleFPS(1);
 		config.setTitle("Arcubit v1");
-		config.useOpenGL3(Options.GL3, 3, 2);
+		config.setOpenGLEmulation(Options.GL3
+				? Lwjgl3ApplicationConfiguration.GLEmulation.GL30
+				: Lwjgl3ApplicationConfiguration.GLEmulation.GL20, 3, 2);
 		
 		if (false) { //
 			DisplayMode display = Lwjgl3ApplicationConfiguration.getDisplayMode();
