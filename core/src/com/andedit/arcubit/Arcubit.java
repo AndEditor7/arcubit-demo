@@ -30,7 +30,6 @@ import com.badlogic.gdx.graphics.profiling.GLProfiler;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
-import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class Arcubit extends ApplicationAdapter 
 {
@@ -59,7 +58,7 @@ public class Arcubit extends ApplicationAdapter
         cam.near = 0.2f;
         cam.far = 600f; // 300f
         cam.update();
-		normalSartup();
+		normalStartup();
 		
 		boolean fix = true;
 		createWorld(fix);
@@ -166,7 +165,7 @@ public class Arcubit extends ApplicationAdapter
 		}
 	}
 	
-	private void normalSartup()
+	private void normalStartup()
 	{
 		font = new BitmapFont(Util.getFile("font/Mozart.fnt"), Util.getFile("font/Mozart.png"), false, true);
 		TexLib.loadTexture();
